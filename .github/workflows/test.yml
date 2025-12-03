@@ -12,5 +12,6 @@ jobs:
         uses: actions/setup-python@v4
       - name: Run test.py
         run: python test.py
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       
     
